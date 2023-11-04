@@ -1,0 +1,290 @@
+* {
+    margin: 0px;
+}
+
+.index {
+    width: 100%;
+    font-family: arial, sans-serif, tahoma;
+}
+
+header {
+    position: relative;
+}
+
+header img {
+    width: 100%;
+}
+
+.cent {
+    text-align: center;
+    color: #838383;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.tieude {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    align-items: center;
+    height: 80px;
+}
+
+.tieude li {
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 50px;
+    text-transform: uppercase;
+}
+
+.tieude i {
+    color: aqua;
+}
+
+hr {
+    color: black;
+}
+
+.infor .hide {
+    display: none;
+}
+
+.infor .container {
+    display: flex;
+   
+
+}
+
+.infor .content {
+    width: 50%;
+    padding: 20px 20px 20px 20px;
+}
+
+#login-form h2,
+input,
+p,
+button {
+    padding: 3px;
+}
+
+#login-form button {
+    border-radius: 10%;
+    background-color: #34A7DE;
+}
+
+.information {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: center;
+    padding: 50px;
+}
+
+.information h3 {
+    text-transform: uppercase;
+}
+
+.information p {
+    font-size: small;
+}
+
+.information .one {
+    background-color: white;
+    margin: 40px;
+    padding: 30px;
+    border: 1px solid;
+    margin-top: 30px;
+}
+
+.information .two {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.information .three {
+    text-transform: uppercase;
+}
+
+.information i {
+    font-size: 30px;
+}
+
+.information .five {
+    margin-top: 20px;
+}
+
+.information .four {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.information .four i {
+    padding: 10px 10px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+li::marker {
+    color: aqua;
+}
+
+.information .idss {
+    background-color: aqua;
+    padding: 2px 10px;
+    border-radius: 10px;
+}
+
+.mana-1 {
+    display: flex;
+}
+
+.mana1 {
+    width: 50px;
+    height: 5px;
+    background-color: aqua;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.mana2 {
+    width: 50px;
+    height: 5px;
+    background-color: rgb(243, 243, 243);
+    margin-bottom: 20px;
+    margin-right: 10px;
+} 
+.skill-details {
+    display: none;
+    margin-top: 10px;
+}
+
+.skill-title:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.skill-title:hover .view-more {
+    display: inline;
+    
+}
+
+.view-more,
+.view-less {
+    display: none;
+    cursor: pointer;
+    text-decoration: none;
+    color: blue;
+}
+
+
+
+.prize {
+    width: 100%;
+    background-color: rgb(247, 247, 247);
+    height: 42rem;
+}
+
+.prize .three {
+    display: flex;
+    width: 500px;
+}
+
+.prize .three img {
+    width: 15rem;
+    height: 10rem;
+    margin-right: 40px;
+}
+
+.prize .one {
+    padding: 60px 221px 45px 241px;
+}
+
+.prize h3 {
+    font-size: 35px;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+}
+
+.prize .four {
+    font-size: small;
+}
+
+.prize .two {
+    display: flex;
+    margin-bottom: 40px;
+    justify-content: space-between;
+}
+
+.hrs {
+    margin-bottom: 40px;
+    background-color: rgb(230, 220, 196);
+    height: 2px;
+}
+
+.prize .five {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+
+.project {
+    width: 100%;
+    font-size: small;
+}
+.project h1 {
+    margin-left: 265px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.project .one{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+}
+.project img {
+    width: 100%;
+}
+.project .two {
+    width: 300px;
+    margin-right: 30px;
+    border: 1px solid #e3e3e3;
+}
+
+.project h4 {
+    padding: 10px;
+    font-size: 15px;
+}
+.project .four{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+.project .five {
+    padding: 10px;
+}
+.project .six {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    padding: 10px;
+}
+.project .nine {
+    margin: 5px;
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+
+footer li {
+    padding: 0 20px 0 20px;
+}
+footer i {
+    background-color: aqua;
+    border-radius: 50%;
+}

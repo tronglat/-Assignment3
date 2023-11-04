@@ -1,0 +1,80 @@
+@media (max-width:767px){
+    
+    body{
+        padding: 10px;
+    }
+    header{
+        width: 100%;
+    }
+    .container {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .containe #abc {
+        display: none;
+    }
+    .containe ul {
+        display: block;
+    }
+    .containe li {
+        font-size: 15px;
+        margin-left: -20px;
+        padding: 2px 2px 2px 2px;
+    }   
+    .cent {
+        width: 100%;
+    }
+    .infor .container {
+        display: block;
+        margin: 10px 0 10px 0 ;
+        padding: 0px;
+    }
+    .infor .content {
+        padding: 20px;
+        width: 92%;
+    }
+    .information{
+        display: block;
+    }
+    .information .one {
+        width: 87%;
+        margin: 20px 0 0 0;
+    }
+    .prize {
+        margin-bottom: 200px;
+    }
+    .prize h3 {
+        font-size: 20px;
+        margin: 0;
+        padding: 10px;
+    }
+    .prize .one {
+        padding: 0;
+        width: 100%;
+    }
+    .prize .two{
+        display: block;
+        
+    }
+    .prize .three {
+        display: block;
+        width: 100%;
+    }
+    .prize .three img{
+        width: 100%;
+        margin: 0;
+    }
+    .project .one {
+        display: block;
+    }
+    .project h1{
+        margin: 0 0 20px 0;
+    }
+    .project .two{
+        width: 100%;
+        margin: 40px 0 40px 0;
+    }
+   footer li{
+    padding: 0;
+   }
+}

@@ -1,0 +1,89 @@
+@media  (min-width:768px) and (max-width:1024px) {
+    
+    body{
+        padding: 10px;
+    }
+    #abc{
+        display: none;
+    }
+    nav ul{
+        padding: 0;
+    }
+    .tieude li{
+        width: 100%;
+        margin: 0;
+        padding: 0px 10px 0 30px;
+    }
+    .infor .container {
+        margin: 0;
+    }
+    .infor .content {
+        padding: 20px 0 0 20px;
+    }
+    .information{
+        grid-template-columns: 50% 50%;
+        margin: 0;
+        padding: 0;
+    }
+    .information .one {
+        width: 83%;
+        padding: 30px;
+        margin: 20px 0 0 0;
+    }
+    
+    .prize .one {
+        padding: 0;
+    }
+    .prize h3 {
+        margin: 0;
+        padding: 20px 0 20px 0;
+    }
+    .prize .two {
+        margin: 0;
+    }
+    .prize .two .three {
+        display: block;
+        width: 100%;
+    }
+    .prize .three img {
+        width: 100%;
+        margin: 0;
+
+    }
+    .prize .four {
+        margin-top: 20px;
+    }
+    .prize .three {
+        display: block;
+        width: 50%;
+    }
+    .project h1 {
+        margin: 0;
+        padding: 20px 0 20px 0 ;
+    }
+    .project {
+        width: 100%;
+    }
+    .project .one {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+    }
+    .project .two{
+        margin: 0;
+        width: 248px;
+    }
+    .project .four {
+        display: flex;
+    }
+    .project .five {
+        padding: 10px 5px 0 5px;
+    }
+    footer  .a{
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+    
+}
